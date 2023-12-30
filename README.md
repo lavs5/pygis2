@@ -1,17 +1,6 @@
 # GIS Programming Roadmap
-<p align="center">
-  <img src="https://gisgeography.com/wp-content/uploads/2016/03/gis-programming-in-python-678x322.png" alt="Image of Coding">
-</p>
-
-<p align="center">
-  <strong>Under development</strong>
-</p>
 
 ## Table of Contents
-- [Intro](#intro)
-- [GIS Fundamentals](#gis-fundamentals)
-- [Intro to CS](#intro-to-cs)
-- [Data Analysis with Python](#data-analysis-with-python)
 - [GIS Programming with Python](#gis-programming-with-python)
 - [Databases](#databases)
 - [Spatial SQL](#spatial-sql)
@@ -22,85 +11,28 @@
 - [Front End Libraries](#front-end-libraries)
 - [Backend Web Development](#backend-web-development)
 
-## Intro
-This repository lays out a path to take someone with no GIS experience to a proficient GIS Developer. The sections are organized by skill level and meant to be progressed through sequentially. This was highly inspired by [Open Source Society University](https://github.com/ossu/computer-science#introduction-to-computer-science).
-
-Resources mostly come from highly effective and free courses as well as blog posts and tutorials. There is a mixture of proprietary (ESRI) and open-source materials.
-
-Please feel free to contribute and correct any errors that I inevitably will make.
-
-## GIS Fundamentals
-
-If you've taken an intro to GIS course or used GIS in the workplace for more than a few months, skip this section. Otherwise, let's review some materials to make sure we have a basic understanding of what GIS is, what common GIS tasks are, and what GIS tools exist out there.
-
-Choose one of desktop softwares below and run through the associated course to get up to speed. This will take about 40 hours and will give you a great foundation in GIS. 
-
-##### ArcMap / ArcPro
-ArcMap and ArcPro are proprietary desktop software for performing GIS analysis distributed by ESRI. These are the most widely used in the industry and learning them is the safest bet at dipping your feet into the industry. Getting to Know ArcPro comes with a free one-year ArcPro license and is well worth the money if you are serious about entering the field. If you take an intro to GIS course through a college, chances are you'll run through this book as a majority of your course work.
 
 ##### QGIS
-The most commonly used open source desktop software. It is free to download and has a wide array of plugins that let you do just about anything with GIS.
-
-<center>
-  
-| Courses (Choose one)                                                                                                     | Difficulty | GIS Software |
-|--------------------------------------------------------------------------------------------------------------------------|------------|--------------|
-| [Coursera GIS Specialization](https://www.coursera.org/specializations/gis) | Easy | ArcPro|
-| [Getting to Know ArcPro](https://esripress.esri.com/display/index.cfm?fuseaction=display&websiteID=229&moduleID=0) ($40) | Easy       | ArcPro       |
 | [Official QGIS Tutorial](https://docs.qgis.org/3.4/en/docs/training_manual/foreword/index.html)                          | Easy       | QGIS         |
 
-</center>
-
-##### Reading (Optional)
-- [GIS Fundamentals: GIS Fundamentals: A First Text on Geographic Information Systems](https://www.amazon.com/GIS-Fundamentals-Geographic-Information-Systems/dp/0971764735)
-
-## Intro to CS
-Learn basics of programming. How much you enjoy one of these courses may be a good indicator of your success in programming.
-
-<center>
-  
-| Courses (Choose One)                                                                                                                                        | Difficulty | Languages                              |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|----------------------------------------|
-| [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-0) | Medium     | Python                                 |
-| [CS50: Introduction to Computer Science](https://online-learning.harvard.edu/course/cs50-introduction-computer-science)                                                                               | Hard       | C, PHP, JavaScript, SQL, CSS, and HTML |
-| [CS50P: Introduction to Programming with Python](https://cs50.harvard.edu/python/2022/)                               | Medium       | Python |
-
-</center>
-  
+ 
 ## Data Analysis with Python
 Learn how to use popular data analysis libraries in Python such as Numpy and Pandas. I'm listing quite a few paid options here because they are of very high quality and are interactive.
-
-<center>
-  
-| Resource (Choose one)                                                                                         | Difficulty |
-|---------------------------------------------------------------------------------------------------------------|------------|
-| [Geo Python](https://geo-python.github.io/site/)                                                              | Medium     |
-| [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)                          | Medium     |
-| [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793) ($28) | Medium     |
-| [Dataquest](https://www.dataquest.io/) ($23 - $50 / month)                                                    | Medium     |
-| [Data Camp](https://www.datacamp.com/) ($25 - $30 / month)                                                    | Medium     |
-| [Brandon Rhoades Pandas Tutorial](https://www.youtube.com/watch?v=5JnMutdy6Fw&feature=youtu.be)               | Medium     |
-
-</center>
 
 ## GIS Programming with Python
 Learn how to write scripts to perform GIS analyses and automate repetetive tasks with Python.
 
 <center>
   
-| Courses (Choose One)                                                                                  | Difficulty                        | GIS Software |
-|-------------------------------------------------------------------------------------------------------|-------------------------------------|------------|
-| [GEOG 485: GIS Programming and Software Development](https://www.e-education.psu.edu/geog485/node/91) | Medium                | ArcGIS / ArcPy     |
-| [Automating GIS Processes](https://autogis-site.readthedocs.io/en/latest/)                         | Medium | GDAL, OGR, GeoPandas, Shapely, QGIS     |
+ GDAL, OGR, GeoPandas, Shapely, numpy, matplotlib, seaborn
 
 </center>
   
 ##### Recommended Additional Courses
-- [GEOG 489: Advanced Python Programming for GIS](https://www.e-education.psu.edu/geog489/node/1776)
-- [Geographic Data Science](http://darribas.org/gds18/)
+- [GEOG 489: Advanced Python Programming for GIS](https://www.e-education.psu.edu/geog489/node/1776) chapter 3
+- [Geographic Data Science](http://darribas.org/gds18/) 
 - [Python for GIS Progression Path](https://github.com/AlexArcPy/python-for-gis-progression-path)
-- [Coursera: Spatial Data Science and Applications](https://www.coursera.org/learn/spatial-data-science)
-- [Datacamp: Visualizing Geospatial Data in Python](https://www.datacamp.com/courses/visualizing-geospatial-data-in-python)
+
 
 ##### Readings (Optional)
 - [Python Scripting for ArcGIS](https://esripress.esri.com/display/index.cfm?fuseaction=display&websiteID=276&moduleID=0) (ESRI)
@@ -153,27 +85,7 @@ Learn how to manage projects using version control.
 
 </center>
 
-## ETL
-Learn how to extract, transform, and load data.
 
-<center>
-  
-| Courses                                                                                            | Difficulty                             | Skill Taught  |
-|----------------------------------------------------------------------------------------------------|-------------------------------------------|------------|
-| [Dataquest Data Engineer Path](https://www.dataquest.io/path/data-engineer) ($24.50 - $50 / month) | Hard | Database Optimizing, ETL, Task Management       |
-| [FME Workbench Tutorials](https://knowledge.safe.com/page/tutorials)                               | Medium                          | FME, Spatial ETL      |
-
-</center>
-
-##### Additional Resources
-- [Petl Documentation](https://petl.readthedocs.io/en/stable/)
-- [Geopetl](https://github.com/rbrtmrtn/geopetl)
-- [Using Python Script for Data ETL](https://codeburst.io/using-python-script-for-data-etl-53138c567906)
-- [A Beginner's Guide to Data Engineering](https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-i-4227c5c457d7)
-
-##### Reading (optional)
-- [Airflow Documentation](https://airflow.apache.org/)
-- [Luigi Documentation](https://luigi.readthedocs.io/en/stable/)
 
 ## Web Development Fundamentals
 Learn the basics of web development. It's very important to do this before trying to jump into web GIS.
