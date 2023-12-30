@@ -1,5 +1,5 @@
 # GIS Programming Roadmap
-
+Jupyter notebooks: https://github.com/jupyter/jupyter/wiki#a-gallery-of-interesting-jupyter-notebooks
 ## Table of Contents
 - [GIS Programming with Python](#gis-programming-with-python)
 - [Databases](#databases)
